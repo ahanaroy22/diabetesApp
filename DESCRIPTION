@@ -1,11 +1,12 @@
-Package: diabetesApp
+Package: tvscore
 Type: Package
-Title: OpenCPU Demo App
-Version: 0.4
-Date: 2013-12-05
+Title: Score data to predict TV hours
+Version: 0.2
+Date: 2014-06-21
 Author: Jeroen Ooms
-Maintainer: Jeroen <jeroenooms@gmail.com>
-Description: This package is an example of an OpenCPU App. It demonstrates
-    basic functionality of the API and Javascript library.
-License: Apache2
-LazyData: true
+Maintainer: Jeroen Ooms <jeroenooms@gmail.com>
+Description: Example OpenCPU app to score data
+License: Apache License 2.0
+LazyData: false
+Depends: R (>= 2.10)
+Imports: mgcv
